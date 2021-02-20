@@ -1,0 +1,271 @@
+/* mobile mode */
+@media only  screen and (min-width:480px) and (max-width:767px){
+
+    .one{
+        width: 100%;
+    }
+    .logo{
+        width: 12%;
+    }
+    .menu{
+        width: 72%;
+    }
+    .menu ul{
+        padding: 12px;
+        margin-left: 95px;
+    }
+    .menu ul li ul {
+        width: 100px;
+    }
+    .menu ul li ul {
+        position: absolute;
+        top: 60%;
+        left: -50px;
+        width: 190px;
+        height: auto;
+        transform: scaleY(0);
+        transition: all 0.6s;
+        transform-origin: top center;
+    }
+    .menu ul li ul li a{
+        font-size: 14px;
+        text-align: center;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        padding: 1px 3px;
+        font-size: 14px;
+        color: white;
+        transition: all 0.6s ease 0s;
+    }
+    .img{
+        width: 100px;
+        padding: 0;
+    }
+    .menu ul li ul{
+        width: 180px;
+    }
+    .content0{
+        width: 112%;
+        margin-left: -120px;
+        font-size: 16px;
+        padding: 30px 30px;
+    }
+    .content0 h4{
+        font-size: 14px;
+    }
+    .about{
+        width:19%;
+        padding: 2px 10px;
+    }
+    .img2{
+        width: 225px;
+    }
+    .text h2 {
+        font-size: 40px;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+    .text{
+        padding: 18px 50px;
+    }
+    .text p {
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    .service {
+        margin-top: -120px;
+        margin-bottom: 25px;
+    }
+    .box1 p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .box1{
+        width: 15%;
+    }
+    .box2 p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .box3 p {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 25px;
+    }
+    .button {
+        font-size: 12px;
+        font-family: sans-serif;
+        margin: 0 auto;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+    .hire{
+        width: 27%;
+        padding: 2px 12px;
+    }
+    .two{
+        width: 67%;
+    }
+    .box1{
+        width: 27.5%;
+    }
+    .box2{
+        width: 27.5%;
+    }
+    .box3{
+    width: 27.5%;
+    }
+    .content1{
+        width: 97%;
+    }
+    .contact_box{
+        width: 35%;
+        height: 280px;
+    }
+    .conttact_box2{
+        width: 37%;
+    }
+    .input{
+        width: 62%;
+    }
+    .submit{
+        width: 62%;
+    }
+    .service h2 {
+        color: black;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 25px;
+        font-family: monospace;
+        font-size: 22px;
+        border: 2px solid darkred;
+        padding: 5px 10px;
+        margin-left: 135px;
+        margin-right: 150px;
+    }
+    .material-icons {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        margin-top: -10px;
+        margin-left: 25px;
+    }
+    .contact h2 {
+        text-align: center;
+        color: white;
+        margin-bottom: 35px;
+        font-size: 35px;
+        margin-left: 13px;
+        margin-right: 35px;
+        border-bottom: none;
+        border-radius: none;
+    }
+    .contact_box h4 {
+        color: white;
+        margin-top: 14px;
+    }
+    .contact1 h4 {
+        font-size: 13px;
+    }
+    input {
+        margin-bottom: 12px;
+        padding: 14px;
+        width: 105%;
+        margin-left: -19px;
+        margin-top: -5px;
+    }
+    textarea {
+        float: right;
+        margin-top: -8px;
+        margin-right: -32px;
+        /* margin-left: -50px; */
+        text-align: center;
+        border-radius: 35px;
+    }
+    .submit{
+        margin-bottom: 20px;
+        margin-left: -28px;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .contact_box2 {
+        height: 280px;
+    }
+}
+/* tablet */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .menu{
+        width: 50%;
+    }
+    .menu ul {
+        padding: 52px;
+        margin-left: -130px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        padding: 1px 20px;
+        font-size: 18px;
+        color: white;
+        transition: all 0.6s;
+    }
+    .content0 {
+        color: #ffffffff;
+        clear: both;
+        width: 145%;
+        font-size: 24px;
+        padding: 60px 30px;
+        margin-top: 110px;
+        margin-left: -320px;
+        border: 1px dashed darkred;
+        border-radius: 15px;
+        background: rgba(220, 20, 60, 0.022);
+        box-shadow: 0 0 20px black;
+        line-height: 15mm;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+    .service h2{
+        margin-left: 268px;
+        margin-right: 275px;
+        font-size: 28px;
+    }
+    .material-icons {
+        margin-left: 5px;
+    }
+    
+element.style {
+}
+.contact h2 {
+    font-size: 30px;
+    margin-left: 124px;
+    margin-right: 169px;
+    border-radius: 50px;
+}
+.contact_box{
+    height: 240px;
+}
+.contact1 h4 {
+    font-size: 17px;
+}
+.contact_box2{
+    height: 240px;
+}
+textarea {
+    margin-right: -24px;
+}
+.contact_box2 {
+    width:60%;
+}
+}
+
